@@ -1,10 +1,10 @@
 # Base PHP Aent
 
-This image is a base image you can extend to build Aents using PHP.
+This image is a base image you can extend to build aents using PHP.
 
 The base image contains:
 
 - PHP 7.2
-- Hermes (for Aents process intercom)
-- Docker (required by Hermes)
+- [Aenthill](https://aenthill.github.io/) (for aents process intercom)
+- Docker (required by Aenthill)
 
