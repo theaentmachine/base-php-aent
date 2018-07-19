@@ -14,5 +14,5 @@ RUN wget -qO- https://download.docker.com/linux/static/stable/x86_64/docker-$DOC
     rm -rf ./docker
 
 # Installs Aenthill.
-ENV AENTHILL_VERSION "0.0.11"
+ENV AENTHILL_VERSION "0.0.12"
 RUN curl -sf https://raw.githubusercontent.com/aenthill/aenthill/master/install.sh | BINDIR=/usr/local/bin sh -s $AENTHILL_VERSION
