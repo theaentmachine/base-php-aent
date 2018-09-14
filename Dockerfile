@@ -22,6 +22,6 @@ RUN apk add --no-cache python3 &&\
     pip3 install --upgrade --no-cache-dir pip ruamel.yaml
 
 # Installs Yaml-tools.
-ENV YAML_TOOLS_VERSION "0.0.7"
+ENV YAML_TOOLS_VERSION "0.0.8"
 RUN wget -q https://raw.githubusercontent.com/thecodingmachine/yaml-tools/$YAML_TOOLS_VERSION/src/yaml_tools.py -O /usr/bin/yaml-tools &&\
     chmod +x /usr/bin/yaml-tools
